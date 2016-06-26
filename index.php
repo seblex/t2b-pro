@@ -30,4 +30,5 @@ extract($match);
 //$product_alias - alias продукта
 //$view - шаблон вида для подключения
 include "controllers/{$view}_controller.php";
+//проверка
 ?>
