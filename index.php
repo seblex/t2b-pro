@@ -1,7 +1,7 @@
 <?php
 
 /* 
- * Точка входа 1
+ * Точка входа
  */
 define('CATALOG', TRUE);
 session_start();
