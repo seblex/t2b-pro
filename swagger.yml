@@ -1,0 +1,20 @@
+definitions:
+  ErrorTest:
+    type: object
+    required:
+      - message
+      - code
+    description: Error message
+    properties:
+      message:
+        type: string
+      code:
+        type: integer
+
+  HealthCheck:
+    type: object
+    required:
+      - message
+    properties:
+      message:
+        type: string
