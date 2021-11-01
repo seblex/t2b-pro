@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "ErrorTest": {
+      "type": "object",
+      "description": "Error message",
+      "properties": {
+        "message": {
+          "x-type": "string"
+        },{
+        "code":{
+          "x-type": "integer"
+        }
+      }
+    }
+  }
+}
