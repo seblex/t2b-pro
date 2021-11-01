@@ -7,9 +7,9 @@ definitions:
     description: Error message
     properties:
       message:
-        type: string
+        x-type: string
       code:
-        type: integer
+        x-type: integer
 
   HealthCheck:
     type: object
